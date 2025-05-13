@@ -34,7 +34,7 @@ body {
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.8); /* translucent white */
+  background-color: rgba(255, 255, 255, 0.5); /* translucent white */
   padding: 15px 20px;
   color: #506160;
   position: sticky;
@@ -164,5 +164,25 @@ header {
 
 .timeline-event {
   font-size: 16px;
+}
+
+.projects-list {
+  list-style-type: disc; /* Add bullet points */
+  padding-left: 20px; /* Indent list for clarity */
+  color: white; /* Text color */
+  font-size: 18px; /* Font size for readability */
+}
+
+.projects-list li {
+  margin-bottom: 10px; /* Space between items */
+}
+.project-link {
+  color: #00aaff; /* Choose a color that fits your theme */
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
