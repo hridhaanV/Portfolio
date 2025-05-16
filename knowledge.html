@@ -6,28 +6,71 @@
   <title>Hridhaan Vohra</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Prism.js for syntax highlighting -->
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-css.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
 </head>
 <body>
   <header>
     <div class="header-container">
-<a href="index.html" class="website-name-link">
-  <h1 class="website-name">Portfolio</h1>
-</a>
+      <a href="index.html" class="website-name-link">
+        <h1 class="website-name">Portfolio</h1>
+      </a>
       <nav class="nav-buttons">
         <a href="accomplishments.html" class="nav-button">Awards</a>
         <a href="projects.html" class="nav-button">Projects</a>
-        <a href="knowledge.html" class="nav-button">Knowledge</a>
+        <a href="knowledge.html" class="nav-button">Skills</a>
       </nav>
     </div>
   </header>
 
   <main class="main-content">
-    <h1 class="title">Hello, World!</h1>
-    <p class="subtitle">Welcome to my personal website.</p>
-    <div class="time-box">
-      <strong>Current Time:</strong>
-      <p id="currentTime" class="time-display"></p>
-    </div>
+
+    <!-- Start of Skills Section -->
+    <section class="skills-section">
+      <h2 class="section-title">My Skills</h2>
+
+      <div class="snippet">
+        <div class="language-label">Python</div>
+        <pre><code class="language-python">print("I can code in Python!")</code></pre>
+      </div>
+
+      <div class="snippet">
+        <div class="language-label">Java</div>
+        <pre><code class="language-java">System.out.println("I can code in Java!");</code></pre>
+      </div>
+
+      <div class="snippet">
+        <div class="language-label">C++</div>
+        <pre><code class="language-cpp">cout << "Hello, World!" << endl;
+</code></pre>
+      </div>
+
+      <div class="snippet">
+        <div class="language-label">HTML</div>
+        <pre><code class="language-markup">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;body&gt;
+    I understand HTML!
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      </div>
+
+      <div class="snippet">
+        <div class="language-label">JavaScript and CSS</div>
+        <pre><code class="language-javascript">console.log("I understand JS and CSS!");</code></pre>
+      </div>
+
+      
+    </section>
+    <!-- End of Skills Section -->
   </main>
 
   <script src="script.js"></script>
