@@ -97,11 +97,16 @@ header {
 .title {
   color: white;
   margin-top: 5px;
-  font-size: 32px;
+  font-size: 80px;
 }
 
 .subtitle {
-  font-size: 22px;
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 35px;
   margin-bottom: 30px;
 }
 
